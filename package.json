@@ -5,7 +5,10 @@
     "main": "generate.js",
     "scripts": {
       "start": "node generate.js",
-      "dashboard": "node build-dashboard.js"
+      "dashboard": "node build-dashboard.js",
+      "start:live": "node generate-live.js",
+      "dashboard:live": "node build-live-dashboard.js",
+      "compare": "node build-comparison.js"
     },
     "dependencies": {
       "lighthouse": "^11.0.0",
