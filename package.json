@@ -1,0 +1,15 @@
+{
+    "name": "lighthouse-bulk-reporter",
+    "version": "1.0.0",
+    "description": "Run Lighthouse for multiple URLs",
+    "main": "generate.js",
+    "scripts": {
+      "start": "node generate.js",
+      "dashboard": "node build-dashboard.js"
+    },
+    "dependencies": {
+      "lighthouse": "^11.0.0",
+      "chrome-launcher": "^1.0.0"
+    }
+  }
+  
